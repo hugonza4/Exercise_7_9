@@ -6,7 +6,7 @@ class digits
     {
 	    int a = 0, b = 0, c = 0, d = 0;
         Console.Write("Insert a number: ");
-        // read the number as string to check the word "end"
+        
         string e = Console.ReadLine();
         while(e!="end")
         {
@@ -15,14 +15,13 @@ class digits
             if(input != 0)
             {
                 if(input/10 == 0)
-                    a ++;  // it only has one digit
+                    a ++;  
                 else if (input/100 == 0)
-		            b ++;  // the number has 2 digits
+		            b ++;  
                 else if (input/1000 == 0)
-                    c ++;  // the number has 3 digits
+                    c ++;  
                 else
-                    d++;  // the number has more than 3 digits
-            }
+                    d++;              }
       
             e = Console.ReadLine();
         }
