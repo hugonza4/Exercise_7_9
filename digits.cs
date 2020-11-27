@@ -4,8 +4,7 @@ class digits
 {
     static void Main()
     {
-	    //counters of number of digits a is for one digit, b is for 2 digits, c is for 3 digits and d is for more than 3 digits
-        int a = 0, b = 0, c = 0, d = 0;
+	    int a = 0, b = 0, c = 0, d = 0;
         Console.Write("Insert a number: ");
         // read the number as string to check the word "end"
         string e = Console.ReadLine();
